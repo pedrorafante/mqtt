@@ -67,6 +67,8 @@ while True:
             print("Pres. Água: ", PressCoolant,"kPa")
             print("Pres. Boost: ", PressBoost,"kPa")
             print("Pres. Absoluta Ar: ", PressAirInlet,"kPa")
+            print("===================================================")
+            
             #print("{:02x} {:04x} :".format(addr[3], addr[2]), end="")
             #for j in range(len(data)):
             #    if j % 8 == 0 and j != 0:
