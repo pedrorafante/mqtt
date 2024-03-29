@@ -1,7 +1,7 @@
 import socket
 import os
 
-#alteração de teste
+#alteração de 
 s = socket.socket(socket.PF_CAN, socket.SOCK_DGRAM, socket.CAN_J1939)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 canal = "vcan0"
