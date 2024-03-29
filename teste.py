@@ -35,7 +35,7 @@ while True:
             	PerTorque = data[2]-125
             if addr[2]==65266:
             	FuelRate = 0.05*int.from_bytes(data[:2], byteorder='little')
-            	ThrottlePos=0.4*int.from_bytes(data[7], byteorder='little')
+            	ThrottlePos=0.4*data[7]
             if addr[2]==65262:
             	TempCoolant = data[0]-40
             	TempFuel = data[1]-40
